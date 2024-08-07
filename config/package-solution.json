@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "sample-for-styling-issue-client-side-solution",
+    "id": "2b3bfedd-77e8-4275-a51f-085e97c20af4",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "SampleForStylingIssue description"
+      },
+      "longDescription": {
+        "default": "SampleForStylingIssue description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "sample-for-styling-issue Feature",
+        "description": "The feature that activates elements of the sample-for-styling-issue solution.",
+        "id": "1c237fb4-7558-4e2c-a4c0-13e3a45c6653",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/sample-for-styling-issue.sppkg"
+  }
+}
